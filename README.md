@@ -1,49 +1,49 @@
-# 📊 Company Workforce Analytics
+# 📊 Company Workforce Analytics Dashboard
 
 ## 📌 Project Overview
 
-The **Company Workforce Analytics** dashboard is designed to help HR and management teams make data-driven decisions by analyzing employee performance, attrition trends, overtime patterns, job satisfaction, and compensation metrics.
+The **Company Workforce Analytics Dashboard** is designed to analyze employee performance, workforce distribution, compensation trends, and attrition patterns across departments.
 
-The project combines **MySQL** for backend data optimization and **Power BI** for interactive visualization and reporting.
+This project helps HR and management teams make data-driven decisions by identifying key drivers of employee turnover, monitoring workforce health, and optimizing retention strategies.
 
-The dataset contains **50,000+ employee records**, enabling meaningful workforce insights and strategic decision-making.
+The dataset contains **50,000+ employee records**, enabling detailed workforce analysis and meaningful business insights.
 
 ---
 
 ## 🎯 Business Problem
 
-Organizations often struggle to understand:
+Organizations need visibility into:
 
-- Why employees are leaving
-- Which departments have higher attrition
+- Which departments have higher attrition rates
 - Whether overtime contributes to employee turnover
 - How job satisfaction impacts performance
-- Whether compensation aligns with employee ratings
+- Whether salary aligns with performance ratings
+- Workforce distribution across departments, job roles, and locations
 
-Without clear visibility into these factors, improving retention and workforce planning becomes difficult.
+Without structured analysis, improving employee retention and workforce planning becomes difficult.
 
 ---
 
 ## 🎯 Objective
 
-The goal of this project is to:
+The goal of this dashboard is to:
 
-- Analyze workforce distribution across departments and locations
-- Identify key drivers of employee attrition
-- Evaluate the relationship between overtime and turnover
-- Examine job satisfaction and performance trends
-- Support HR decision-making with clear KPIs and insights
+- Monitor total workforce and compensation metrics
+- Identify attrition trends across departments and roles
+- Analyze the relationship between overtime and attrition
+- Evaluate job satisfaction and performance alignment
+- Support HR decision-making through clear KPIs
 
 ---
 
 ## 🛠️ Tech Stack
 
-- 🗄️ **MySQL** – Data cleaning, indexing, aggregation, and optimized views
-- 📊 **Power BI Desktop** – Interactive dashboard development
-- 📂 **Power Query** – Data transformation and preprocessing
-- 🧠 **DAX** – Custom KPIs and calculated measures
-- 📝 **Data Modeling** – Relationship building and structured reporting
-- 📘 **MS Excel** – Initial data validation and exploration
+- 🗄️ **MySQL** – Data cleaning, aggregation, indexing, and optimized views  
+- 📊 **Power BI Desktop** – Interactive dashboard creation and visualization  
+- 📂 **Power Query** – Data transformation and preprocessing  
+- 🧠 **DAX (Data Analysis Expressions)** – Custom KPIs and calculated measures  
+- 📝 **Data Modeling** – Relationship management and structured reporting  
+- 📘 **MS Excel** – Initial data validation and exploration  
 
 ---
 
@@ -61,9 +61,11 @@ The dataset includes 50,000+ employee records with fields such as:
 - Performance_Rating  
 - Promotion_Status  
 - Sick_Leaves  
+- Employment_Type  
+- Gender  
 - Attrition  
 
-The data structure supports deep analysis of workforce behavior and retention patterns.
+The data supports in-depth analysis of workforce distribution, performance trends, and attrition patterns.
 
 ---
 
@@ -71,11 +73,19 @@ The data structure supports deep analysis of workforce behavior and retention pa
 
 ### 🔹 Page 1: Workforce Overview
 
-- Total Employees
-- Total Monthly Payroll
-- Average Salary
+- Total Employees: **50K**
+- Total Monthly Payroll: **$5.1M**
+- Average Salary: **$102.5K**
+- Attrition Rate: **17.89%**
 - Department-wise Employee Distribution
-- Employee Type Analysis
+- Job Role & Salary Analysis
+- Gender Distribution
+- Education Level Breakdown
+- Employment Type Analysis
+
+**Insight:** The workforce is evenly distributed across departments with a moderate attrition rate requiring attention.
+
+---
 
 ### 🔹 Page 2: Attrition & Performance Analysis
 
@@ -88,15 +98,17 @@ The data structure supports deep analysis of workforce behavior and retention pa
 - Salary vs Performance (Scatter Plot)
 - Location-wise Employee Distribution
 
+**Insight:** Higher overtime and lower job satisfaction show correlation with increased attrition, highlighting potential burnout risks.
+
 ---
 
 ## 📊 Key Insights
 
-- Departments with higher overtime show increased attrition trends.
-- Lower job satisfaction scores are associated with higher employee turnover.
-- Sick leave patterns indicate potential burnout in specific categories.
-- Salary and performance ratings show measurable alignment across roles.
-- Workforce concentration varies significantly across locations.
+- Overall attrition rate stands at 17.89%, indicating moderate employee turnover.
+- Overtime workload shows a visible relationship with attrition.
+- Job satisfaction plays a key role in employee retention.
+- Workforce is nearly gender-balanced.
+- Salary and performance ratings show consistent alignment across roles.
 
 ---
 
@@ -104,7 +116,7 @@ The data structure supports deep analysis of workforce behavior and retention pa
 
 - Created indexes on frequently filtered columns (Department, Job_Role, Attrition)
 - Built summary views for department-wise and role-wise analysis
-- Used EXPLAIN to validate index usage and query performance
+- Used `EXPLAIN` to validate query performance
 - Structured database layer before connecting to Power BI
 
 ---
@@ -114,21 +126,21 @@ The data structure supports deep analysis of workforce behavior and retention pa
 - Supports HR in identifying high-risk departments
 - Enables data-driven retention strategies
 - Improves workforce planning and resource allocation
-- Enhances organizational performance visibility
+- Enhances performance visibility for leadership
 
 ---
 
 ## 📷 Dashboard Preview
 
-(Add your Power BI dashboard screenshot here)
+(Add your Power BI dashboard screenshot link here)
 
 ---
 
 ## 📁 Project Files
 
-- `.pbix` – Power BI dashboard file
-- SQL scripts – Database optimization queries
-- README.md – Project documentation
+- `.pbix` – Power BI dashboard file  
+- SQL scripts – Data preparation and optimization queries  
+- README.md – Project documentation  
 
 ---
 
