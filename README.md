@@ -83,7 +83,12 @@ The data supports in-depth analysis of workforce distribution, performance trend
 - Education Level Breakdown
 - Employment Type Analysis
 
-**Insight:** The workforce is evenly distributed across departments with a moderate attrition rate requiring attention.
+**Insights:**
+
+- The company maintains a large workforce of **50K employees** with a monthly payroll exceeding **$5.1M**.
+- The **average salary of $102.5K** reflects a competitive compensation structure.
+- Workforce distribution across departments is **relatively balanced**, indicating stable organizational structure.
+- The **attrition rate of 17.89%** suggests moderate employee turnover that HR teams should monitor.
 
 ---
 
@@ -97,6 +102,14 @@ The data supports in-depth analysis of workforce distribution, performance trend
 - Sick Leave Category vs Attrition
 - Salary vs Performance (Scatter Plot)
 - Location-wise Employee Distribution
+
+**Insights:**
+
+- Around **8.9K employees have left the company**, contributing to the overall attrition rate.
+- Employees with **higher overtime levels tend to show higher attrition**, suggesting workload impact.
+- **Lower job satisfaction levels are associated with increased attrition**, highlighting the importance of workplace engagement.
+- Sick leave patterns may indicate **employee stress or burnout in certain categories**.
+- Attrition levels remain **fairly consistent across locations**, suggesting company-wide workforce dynamics.
 
 **Insight:** Higher overtime and lower job satisfaction show correlation with increased attrition, highlighting potential burnout risks.
 
