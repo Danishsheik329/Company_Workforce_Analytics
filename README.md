@@ -143,7 +143,15 @@ The data supports in-depth analysis of workforce distribution, performance trend
 
 ## 📷 Dashboard Preview
 
-(Add your Power BI dashboard screenshot link here)
+### 🔹 Workforce Overview
+
+![Workforce Overview](images/workforce_overview.png)
+
+---
+
+### 🔹 Attrition & Performance Analysis
+
+![Attrition Analysis](images/attrition_analysis.png)
 
 ---
 
