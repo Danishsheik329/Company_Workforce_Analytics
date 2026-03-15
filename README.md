@@ -145,7 +145,7 @@ The data supports in-depth analysis of workforce distribution, performance trend
 
 ### 🔹 Workforce Overview
 
-![Workforce Overview](images/workforce_overview.png)
+![Workforce Overview](https://github.com/Danishsheik329/Company_Workforce_Analytics/blob/main/attrition_analysis.png)
 
 ---
 
