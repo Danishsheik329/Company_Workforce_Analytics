@@ -111,8 +111,6 @@ The data supports in-depth analysis of workforce distribution, performance trend
 - Sick leave patterns may indicate **employee stress or burnout in certain categories**.
 - Attrition levels remain **fairly consistent across locations**, suggesting company-wide workforce dynamics.
 
-**Insight:** Higher overtime and lower job satisfaction show correlation with increased attrition, highlighting potential burnout risks.
-
 ---
 
 ## 📊 Key Insights
